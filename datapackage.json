@@ -1,0 +1,70 @@
+{
+  "bytes": 3870,
+  "count_of_rows": 79,
+  "hash": "771b23c094afc803a8fbe6473f81da3c",
+  "name": "population-projections",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 3870,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "56b35199007976d9e97b5a00de54ae5b",
+      "name": "population-projections",
+      "path": "data/population-projections.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Country Code",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Low Fertility",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Medium Fertility",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "High Fertility",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "Country Name",
+          "Year",
+          "Population"
+        ]
+      }
+    }
+  ],
+  "title": "Population projections"
+}
