@@ -1,7 +1,7 @@
 {
-  "bytes": 3870,
-  "count_of_rows": 79,
-  "hash": "771b23c094afc803a8fbe6473f81da3c",
+  "bytes": 5767,
+  "count_of_rows": 141,
+  "hash": "adf0fbd6e0288dfd1254bb8fa4b90e5a",
   "name": "population-projections",
   "profile": "data-package",
   "resources": [
@@ -62,6 +62,51 @@
           "Country Name",
           "Year",
           "Population"
+        ]
+      }
+    },
+    {
+      "bytes": 1897,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "26dc50534f4b7761aa3054e26c9e4462",
+      "name": "population",
+      "path": "data/population-historical.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Value",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
         ]
       }
     }
